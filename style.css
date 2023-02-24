@@ -141,7 +141,7 @@ footer p{
 
 #skills-main-h1{
     font-size: 3rem;
-    padding-left: 5rem;
+    padding-left: 4rem;
     margin-bottom: 1rem;
 }
 
@@ -152,7 +152,7 @@ footer p{
 
 .skills-menu{
     list-style-type: '→ ';
-    padding-left: 6rem;
+    padding-left: 5rem;
 }
 
 .skills-list{
@@ -170,11 +170,12 @@ footer p{
 .skills-section-right{
     display: flex;
     flex-direction: column;
-    padding-right: 5rem;
+    justify-content: space-between;
+    padding-right: 4rem;
 }
 
 #learning-h1{
-    font-size: 3rem;
+    font-size: 3rem;   
 }
 
 .skills-empty-space{

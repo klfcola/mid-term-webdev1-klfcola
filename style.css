@@ -39,7 +39,6 @@ nav a{
 }
 
 nav a:hover{
-    background-color: #023E8A;
     color: white;
 }
 
@@ -163,7 +162,7 @@ footer p{
 }
 
 .skills-list:hover{
-    background-color: #48CAE4;
+    background-color: #023E8A;
     color: white;
 }
 
@@ -196,12 +195,10 @@ div{
 
 #experiences-paragraph h1{
     font-size: 3rem;
-    padding-left: 3rem;
     padding-bottom: 3rem;
 }
 
 #experiences-paragraph p{
-    padding-left: 3rem;
     padding-right: 3rem;
     padding-bottom: 1rem;
 }
@@ -213,12 +210,10 @@ div{
 }
 
 h2{
-    padding-left: 3rem;
     font-size: 2rem;
 }
 
 h3{
-    padding-left: 3rem;
     font-size: 1rem;
 }
 
@@ -252,7 +247,7 @@ h3{
 }
 
 main a:hover{
-    background-color: #48CAE4;
+    background-color: #023E8A;
     color: white;
 }
 

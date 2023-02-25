@@ -76,7 +76,7 @@ main{
     padding-left: 6rem;
 }
 
-.footer{
+footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -94,17 +94,17 @@ footer address ul{
     padding: 1rem;
 }
 
-.footer-address-icon{
-    list-style-type: none;
-    margin: 0.5rem;
-    width: 3rem;
-    height: 3rem;
-}
-
 .footer-address-icon1{
     list-style-type: none;
     margin-top: 0.8rem;
     margin-right: 0.5rem;
+    width: 3rem;
+    height: 3rem;
+}
+
+.footer-address-icon{
+    list-style-type: none;
+    margin: 0.5rem;
     width: 3rem;
     height: 3rem;
 }
@@ -119,7 +119,7 @@ footer p{
 #about-paragraph h1{
     font-size: 3rem;
     padding-left: 3rem;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
 }
 
 #about-paragraph p{
@@ -138,15 +138,15 @@ footer p{
 
 /* ----------skills page---------- */
 
-#skills-main-h1{
-    font-size: 3rem;
-    padding-left: 4rem;
-    margin-bottom: 1rem;
-}
-
 #skills-main{
     display: flex;
     justify-content: space-between;
+}
+
+#skills-main-h1{
+    font-size: 3rem;
+    padding-left: 4rem;
+    padding-bottom: 2rem;
 }
 
 .skills-menu{
@@ -181,7 +181,7 @@ footer p{
     padding-top: 5rem;
 }
 
-div{
+#skills-images{
     display: flex;
     justify-content: space-evenly;
 }
@@ -195,7 +195,7 @@ div{
 
 #experiences-paragraph h1{
     font-size: 3rem;
-    padding-bottom: 3rem;
+    padding-bottom: 2rem;
 }
 
 #experiences-paragraph p{
@@ -209,15 +209,19 @@ div{
     border-radius: 100px;
 }
 
-h2{
+#rank{
     font-size: 2rem;
 }
 
-h3{
+#force{
     font-size: 1rem;
 }
 
-.empty-space{
+#served{
+    font-size: 1rem;
+}
+
+.experiences-empty-space{
     height: 15px;
 }
 
@@ -238,17 +242,21 @@ h3{
     border-radius: 200px;
 }
 
+.about-main-address-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: pre;
+    padding: 0.5rem;
+}
+
 .main-address-section{
     display: flex;
     flex-direction: row;
     width: 25rem;
     height: 3rem;
     margin: 0.5rem;
-}
-
-main a:hover{
-    background-color: #023E8A;
-    color: white;
 }
 
 main a{
@@ -263,13 +271,9 @@ main a{
     padding-right: 1.5rem;
 }
 
-.about-main-address-section{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    white-space: pre;
-    padding: 0.5rem;
+main a:hover{
+    background-color: #023E8A;
+    color: white;
 }
 
 .main-image{
